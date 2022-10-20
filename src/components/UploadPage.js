@@ -62,7 +62,7 @@ const UploadPage = () => {
                 <img id="upload-img" src={`${API_URL}/${imageUrl}`} />
               ) : (
                 <div id="upload-img-placeholder">
-                  <img src="/images/icons/camera.png" />
+                  <img src="/images/icons/upload.png" />
                   <span>이미지업로드</span>
                 </div>
               )}

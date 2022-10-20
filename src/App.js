@@ -1,5 +1,5 @@
 import { Route, Routes, Link, useNavigate } from "react-router-dom";
-import 'antd/dist/antd.css';
+import "antd/dist/antd.css";
 import "./App.css";
 import { UploadOutlined } from "@ant-design/icons";
 import MainPage from "./components/MainPage";
@@ -8,7 +8,7 @@ import UploadPage from "./components/UploadPage";
 import { Button } from "antd";
 
 const App = () => {
-	let navigate=useNavigate();
+  let navigate = useNavigate();
 
   return (
     <>
@@ -17,7 +17,15 @@ const App = () => {
           <Link to="/">
             <img src="images/icons/logo.png" alt="logo" />
           </Link>
-          <Button size="large" icon={<UploadOutlined />} onClick={()=>{navigate('/upload')}}>상품업로드</Button>
+          <Button
+            size="large"
+            icon={<UploadOutlined />}
+            onClick={() => {
+              navigate("/upload");
+            }}
+          >
+            상품업로드
+          </Button>
         </div>
       </div>
 

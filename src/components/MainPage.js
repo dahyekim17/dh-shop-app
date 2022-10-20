@@ -41,7 +41,7 @@ const MainPage = () => {
   return (
     <>
       <div id="body">
-        <Carousel autoplay autoplaySpeed={500}>
+        <Carousel autoplay autoplaySpeed={2000}>
           {banners.map((banner,index)=>{
             return(
               <Link to={banner.href} key={index}>
@@ -79,9 +79,9 @@ const MainPage = () => {
                         />
                         {product.seller}
                       </div>
-                      <span className="product-date">
+                      {/* <span className="product-date">
                         {`${dayjs(product.createdAt).fromNow()}`}
-                      </span>
+                      </span> */}
                     </div>
                   </div>
                 </Link>

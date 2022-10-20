@@ -10,7 +10,7 @@
   border-bottom: 1px solid gray;
 }
 #header-area {
-  width: 1024px;
+  width: 1440px;
   height: 100%;
   display: flex;
   align-items: center;
@@ -47,7 +47,7 @@
 }
 
 #banner {
-  height: 300px;
+  height: 617px;
 }
 
 #product-list {
